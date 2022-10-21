@@ -1,0 +1,12 @@
+.table__item {
+    list-style-type: none;
+}
+
+.table__item-text {
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 2px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: rgb(227, 216, 248);
+}

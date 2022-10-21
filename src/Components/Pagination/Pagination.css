@@ -1,0 +1,36 @@
+.pagination {
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+
+.pagination__btn {
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.pagination__btn svg {
+    width: 100%;
+    height: 100%;
+}
+
+.pagination__item {
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    background-color: #DAC8FA;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination__item:hover {
+    background-color: #ddd5eb;
+}
+
+.pagination__item.active {
+    border: 2px solid #562e9a;
+}

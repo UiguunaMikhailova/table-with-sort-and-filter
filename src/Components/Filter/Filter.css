@@ -1,0 +1,38 @@
+.filter {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    gap: 5px;
+    margin: 0 auto;
+}
+
+.button {
+    cursor: pointer;
+    color: #27262a;
+    background-color: transparent;
+    padding: 3px;
+    border: 3px solid #7666b4;
+    border-radius: 50px;
+    width: 170px;
+    margin: 10px auto;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.button:hover {
+    border: 3px solid #4b3683;
+}
+
+.select, .input {
+    background-color: #fcf9ff;
+    border: 1px solid #acacac;
+    border-radius: 30px;
+    padding: 0 8px;
+    margin-bottom: 5px;
+    height: 25px;
+    width: 300px;
+}
+
+input.input::placeholder {
+    color: #000000;
+}
